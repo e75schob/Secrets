@@ -1,0 +1,18 @@
+<%- include('partials/header') %>
+
+<!--jumbotron is a bootstrap class, also centered is a bootstrap class, apply custom css to class centered-->
+<div class="jumbotron centered">
+<!--container is a bootstrap class, fas fa-key fa-6x from font awesome-->
+  <div class="container">
+    <i class="fas fa-key fa-6x"></i>
+    <h1 class="display-3">Secrets</h1>
+    <p class="lead">Don't keep your secrets, share them anonymously!</p>
+    <hr>
+<!--The /register and /login route get to their respective routes that we will set up in the app.js  -->
+    <a class="btn btn-light btn-lg" href="/register" role="button">Register</a>
+    <a class="btn btn-dark btn-lg" href="/login" role="button">Login</a>
+
+  </div>
+</div>
+
+<%- include('partials/footer') %>
